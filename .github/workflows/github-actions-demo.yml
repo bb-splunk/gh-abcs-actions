@@ -1,7 +1,5 @@
 name: 01-1. GitHub Actions Demo
-on: 
-  workflow_dispatch:
-  workflow_call:
+on:
   push:
     branches:
       - main
